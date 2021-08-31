@@ -8,13 +8,14 @@ const content = [
       title: 'Test title',
       description: 'Test description',
       button: 'Read',
-      image: "https://imgur.com/a/pr3pvp2"
+      link: 'https://github.com/Callumwhite210/Personal-Code-Library',
+      image: "https://imgur.com/D00G2HL"
     },
     {
       title: 'test title two',
       description: 'test description two',
       button: 'Text',
-      image: 'https://i.imgur.com/DCdBXcq.jpg'
+      image: './636909.jpg'
     }
     ];
   

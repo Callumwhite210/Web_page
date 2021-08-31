@@ -44,7 +44,8 @@ button {
   
   .slider-wrapper {
     position: relative;
-    height: 70vh;
+    height: 60vh;
+    width: 80vh;
     overflow: hidden;
   }
   
