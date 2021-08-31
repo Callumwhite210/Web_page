@@ -21,7 +21,7 @@ const content = [
   
 function Carousel() {
     return (
-        <div className="Carousel">
+        <div className="carousel">
             <Slider className="slider-wrapper">
         {content.map((article, index) =>
           <div

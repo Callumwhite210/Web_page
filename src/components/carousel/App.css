@@ -1,4 +1,6 @@
-
+.carousel {
+  margin-top: 20px;
+}
 button {
     -webkit-appearance: none;
             appearance: none;
