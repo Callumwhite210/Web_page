@@ -13,13 +13,23 @@ function App() {
     <div className="App">
       <Header />
       <Container className='outline'>
-        <Col>
+        
           <Row>
+          <h1> About </h1>
+            <Col>
+              <p> Picture </p>
+            </Col>
+            <Col>
+              <p> Text </p>
+            </Col>
+          </Row>
+      <Row>  
+        <Col>         
           <div className='Carousel'>  
             <Carousel/>
-          </div>
-          </Row>
-        </Col>        
+          </div>         
+        </Col>
+      </Row>      
       </Container>
     </div>
   );
