@@ -11,6 +11,7 @@ function Header (){
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#features">Features</Nav.Link>
                         <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        {/* Dropdown to all social links */}
               </Nav>
             </Container>
   </Navbar>
