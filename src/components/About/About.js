@@ -3,17 +3,17 @@ import { Row, Col } from 'react-bootstrap';
 
 function About() {
     return (
-               <div>
+            <div>
                 <Row>
                 <h1> About </h1>
-                  <Col>
+                  <Col sm={2}>
                     <p> Picture </p>
                   </Col>
                   <Col>
                     <p> Text </p>
                   </Col>
                 </Row>
-                </div>
+            </div>
     )
 }
 

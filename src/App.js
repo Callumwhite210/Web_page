@@ -3,6 +3,7 @@ import React from "react";
 import Carousel from "./components/carousel/carousel";
 import Header from "./components/Navbar/Navbar";
 import About from "./components/About/About";
+import Footer from "./components/Footer/footer";
 
 //Css
 import { Container, Row, Col } from 'react-bootstrap';
@@ -15,6 +16,8 @@ function App() {
       <Header />
       <Container className='outline'>
         <About />
+      </Container> 
+      <Container className='outline'> 
       <Row>  
         <Col>         
           <div className='Carousel'>  
@@ -22,9 +25,11 @@ function App() {
           </div>         
         </Col>
       </Row>
+      </Container>
+      <Container className='outline'>
         <h1>Contact Me!</h1>
       </Container>
-    <h2> Footer </h2>
+    <Footer />
     </div>
   );
 }
