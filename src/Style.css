@@ -1,11 +1,12 @@
 .App {
-    background: linear-gradient(90deg, rgb(45, 140, 187) 0%, rgb(139, 102, 241) 100%);
+
 }
 .outline {
     border: 2px solid #1C6EA4;
     align-content: center;
 }
-
-.centre {
+.Carousel {
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
